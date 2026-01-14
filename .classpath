@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/LOQ/Downloads/javax.servlet-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/LOQ/Downloads/jstl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/LOQ/Downloads/jstl-api-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/LOQ/Downloads/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/LOQ/Downloads/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LOQ/Downloads/jakarta.servlet-api-5.0.0 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/LOQ/Downloads/javax.servlet-api-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LOQ/Downloads/jsp-api-2.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

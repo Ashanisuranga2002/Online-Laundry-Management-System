@@ -1,0 +1,134 @@
+/* Animation styles */
+.invisible {
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: hidden;
+}
+
+.fade-in-section {
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out, visibility 0.8s;
+}
+
+.fade-in-section.fade-in-active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+
+/* Hero animation */
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.delay-300 {
+    animation-delay: 300ms;
+}
+
+.delay-600 {
+    animation-delay: 600ms;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Dark theme overrides */
+body {
+    background-color: #1a202c; /* Tailwind gray-900 */
+    color: #e2e8f0; /* Tailwind gray-300 */
+}
+
+header {
+    background-color: #2d3748; /* Tailwind gray-800 */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+a {
+    color: #63b3ed; /* Tailwind blue-400 */
+}
+
+a:hover {
+    color: #4299e1; /* Tailwind blue-500 */
+}
+
+.bg-white {
+    background-color: #2d3748 !important; /* Tailwind gray-800 */
+}
+
+.bg-blue-50 {
+    background-color: #2a4365 !important; /* Tailwind blue-900 */
+}
+
+.bg-blue-600 {
+    background-color: #2c5282 !important; /* Tailwind blue-800 */
+}
+
+.text-gray-600 {
+    color: #a0aec0 !important; /* Tailwind gray-400 */
+}
+
+.text-gray-700 {
+    color: #cbd5e0 !important; /* Tailwind gray-300 */
+}
+
+.text-gray-500 {
+    color: #718096 !important; /* Tailwind gray-500 */
+}
+
+.border-gray-200 {
+    border-color: #4a5568 !important; /* Tailwind gray-600 */
+}
+
+.border-gray-300 {
+    border-color: #4a5568 !important; /* Tailwind gray-600 */
+}
+
+.shadow-sm {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) !important;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7) !important;
+}
+
+button.bg-blue-600 {
+    background-color: #2c5282 !important;
+    color: #e2e8f0 !important;
+}
+
+button.bg-blue-600:hover {
+    background-color: #2a4365 !important;
+}
+
+button.border-white {
+    border-color: #e2e8f0 !important;
+    color: #e2e8f0 !important;
+}
+
+button.border-white:hover {
+    background-color: #2a4365 !important;
+}
+
+/* Adjust Lucide icon colors for dark theme */
+svg {
+    stroke: #63b3ed !important;
+}
+
+.bg-blue-100 {
+    background-color: #2c5282 !important; /* Darker blue for icon backgrounds */
+}
+
+.bg-gray-50 {
+    background-color: #1a202c !important; /* Dark background for footer */
+}
+
+.bg-gray-200 {
+    background-color: #4a5568 !important; /* Darker gray for avatar placeholders */
+}
